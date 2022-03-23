@@ -1,0 +1,104 @@
+*
+{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+.nav_bar img
+{
+      height: 60px;
+      width: 80px;
+      padding-left: 30px;
+}
+.nav_bar
+{
+display: flex;
+width: 100%;
+margin: auto;
+padding: 2px 0;
+align-items: center;
+justify-content: space-between;
+margin-top: 0px;
+background-color: black;
+height: 100px;
+margin-bottom: 30px;
+
+}
+.nav_bar ul li
+{
+      display: inline-block;
+      list-style: none;
+      margin: 10px 20px;
+}
+.nav_bar ul li 
+{
+      text-decoration: none;
+      color: #fb8500;
+      font-weight: bold;
+      text-transform: capitalize;
+      font-size: 25px;
+      margin-right: 40px;
+
+}
+.nav_bar .btn
+{
+      text-decoration: none;
+      color: #fb8500;
+      font-weight: bold;
+      text-transform: capitalize;
+      font-size: 25px; 
+      margin-right: 70px;   
+}
+.auth_content
+{
+      width: 30%;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 5px;
+      border: 2px solid darkgoldenrod;
+      padding: 50px;
+      position: relative;
+}
+.auth_content form div
+{
+      margin-bottom: 50px;
+      position: relative;
+}
+.auth_content .title
+{
+      text-align: center;
+      text-transform: capitalize;
+      margin-bottom: 30px;
+      color: rgb(68, 60, 60);
+      font-size: 30px;
+      margin-right: 80px;
+      position: relative;
+}
+label
+{
+      text-transform: capitalize;
+      font-size: 25px;
+      position: absolute;
+      top: -25px;
+      font-weight: 500;
+}
+.input-text
+{
+      font-size: 40px;
+      border-radius: 10px;
+}
+.btn-big
+{
+      text-align: center;
+      font-size: 30px;
+      text-transform: capitalize;
+      padding: 10px;
+      background-color: #fb8500;
+      border-radius: 8px;
+}
+p{
+  font-size: 30px;  
+  text-align: center; 
+   
+}
