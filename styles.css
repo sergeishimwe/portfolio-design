@@ -1,0 +1,589 @@
+* {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      font-family: sans-serif;
+}
+.content
+{
+      background-color: darkgray;
+}
+.main_content
+{
+      background-color: white;
+      margin: 20px;
+      display: grid;
+      grid-template-columns: 0.7fr 3fr;
+      grid-gap: 4em;
+}
+.personal img
+{
+height: 180px;
+width: auto;
+border-radius: 100px;
+padding: 25px;
+margin-bottom: 20px;
+text-align: center;
+}
+.personal .photo
+{
+      text-align: center;
+      display: inline-block;
+     
+      margin-left: 50px;
+      
+}
+.nav_bar img
+{
+      height: 60px;
+      width: 80px;
+      padding-left: 30px;
+}
+.nav_bar
+{
+display: flex;
+width: 100%;
+margin: auto;
+padding: 2px 0;
+align-items: center;
+justify-content: space-between;
+margin-top: 0px;
+background-color: black;
+height: 100px;
+margin-bottom: 30px;
+
+}
+.nav_bar ul li
+{
+      display: inline-block;
+      list-style: none;
+      margin: 10px 20px;
+}
+.nav_bar ul li 
+{
+      text-decoration: none;
+      color: #fb8500;
+      font-weight: bold;
+      text-transform: capitalize;
+      font-size: 25px;
+      margin-right: 40px;
+
+}
+.nav_bar .btn
+{
+      text-decoration: none;
+      color: #fb8500;
+      font-weight: bold;
+      text-transform: capitalize;
+      font-size: 25px; 
+      margin-right: 70px;   
+}
+.personal h3
+{
+      text-transform: capitalize;
+      font-size: 20px;
+      margin-left: 30px;
+      margin-bottom: 20px;
+
+}
+.personal ul li
+{
+      display: inline-block;
+      list-style: none;
+      margin: 10px 30px; 
+      text-transform: capitalize; 
+      font-size: 20px;  
+      margin-left: 40px;
+      justify-content: space-between;
+}
+.personal
+{
+      display: block;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #fb8500;
+      border-radius: 20px;
+}
+.personal a
+{
+      margin-bottom: 50px;
+      background-color: #fb8500;
+}
+.personal span
+{
+      color: green;
+      font-weight: bold;
+      
+}
+.myskill h1
+{
+      text-align: center;
+}
+.myskill h3
+{
+      margin: 5px;
+}
+.myskill 
+{
+      width: 300px;
+      margin-top: 45px;
+      text-transform: capitalize; 
+      list-style: none;
+}
+.myskill li
+{
+  margin: 20px 15px; 
+  padding: 10px; 
+  font-size: 30px;  
+}
+.myskill .bar
+{
+   background-color: #fff; 
+   display: block;  
+   height: 20px;
+   border: 1px solid dimgray;
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(o,o,o,o.24);
+   transition: all 0.3s cubic-bezier(.25,0.8,.25,1);
+}
+.bar:hover
+{
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(o,o,o,o.22);     
+}
+.bar span
+{
+height: 20px;
+float: left;
+background:#fb8500
+}
+.html
+{
+      width: 90%;
+      animation: html 3s;
+}
+.css
+{
+      width: 70%;
+      animation: css 3s;
+}
+.python
+{
+      width: 40%;
+      animation: pynthon 3s;
+}
+.javascript
+{
+      width: 50%;
+      animation: javascript 3s;
+}
+.matlab
+{
+      width: 70%;
+      animation: matlab 3s;
+}
+.solidwork
+{
+      width: 60%;
+      animation: solidwork 3s;
+}
+@keyframes html
+{
+      0%{
+            width: 0%;
+      }
+      100%{
+            width: 90%;
+      }
+}
+@keyframes css
+{
+      0%{
+            width: 0%;
+      }
+      100%{
+            width: 70%;
+      }
+}
+@keyframes pynthon
+{
+      0%{
+            width: 0%;
+      }
+      100%{
+            width: 40%;
+      }
+}
+@keyframes javascript
+{
+      0%{
+            width: 0%;
+      }
+      100%{
+            width: 50%;
+      }
+}
+@keyframes matlab
+{
+      0%{
+            width: 0%;
+      }
+      100%{
+            width: 70%;
+      }
+}
+@keyframes solidwork
+{
+      0%{
+            width: 0%;
+      }
+      100%{
+            width: 60%;
+      }
+}
+.container
+{
+      position: relative;
+      width: 310px;
+      margin-top: 45px;
+      text-transform: capitalize; 
+      margin: 5px;
+}
+.container h1
+{
+      letter-spacing: 1px;
+      margin-bottom: 25px;
+      text-align: center;
+
+}
+.container .progress
+{
+      display: flex;
+      width: 100%;
+      margin: 50px auto;
+}
+.progress h4
+{
+margin-top: 6px;
+font-size: 20px;
+letter-spacing: 1px;
+font-weight: bolder;
+margin-left: 10px;
+}
+.progress .progress_bar
+{
+  position: absolute;
+  left: 120px; 
+  width: 55%;  
+  height: 15px;
+  border: 1px solid dimgray;
+  border-radius: 30px;
+  background: #fff;
+}
+.progress .progress_bar .progressing 
+{
+   width: 90%; 
+   height: 100%; 
+   background: #fb8500; 
+}
+
+.progress .percent
+{
+  position: absolute; 
+  right: -40px;
+  margin-top: -5px;  
+  font-size: 24px;
+  font-weight: bold;
+  color: #fb8500;
+}
+.detail
+{
+      margin-left: 12%;
+      margin-top: 15%;
+}
+.detail h1
+{
+font-size: 35px;
+text-transform: capitalize;
+}
+.detail p
+{
+  color:#fb8500;
+  font-size: 25px; 
+  margin: 30px 0px;
+  text-transform: capitalize;
+ 
+}
+.detail p span
+{
+      text-align: center;
+      color: black;
+      text-align: center;
+     
+}
+.detail a
+{
+      background-color: #fb8500;
+      padding: 10px 18px;
+      text-decoration: none;
+      font-weight: bold;
+      color: black;
+      display: inline-block;
+      margin: 30px 0;
+      border-radius: 5px;
+      font-size: 30px;
+      text-transform: uppercase;
+}
+.picture
+{
+      margin-left: 40%;
+      margin-top: -30%;
+}
+.picture .pic
+{
+height: 500px;
+width: 400px;
+}
+.education
+{
+      text-align: center;
+      background-color: darkgrey;
+      width: 100%;
+      border-radius: 50px;
+}
+.education h1
+{
+font-size: 30px;
+text-transform: capitalize;
+padding: 35px 0;
+margin-top: 50px;
+}
+.education h1 span
+{
+      color: #fb8500;
+}
+.education p
+{
+line-height: 30px;
+letter-spacing: 2px;
+padding-left: 25px;
+padding-right: 25px;
+padding-bottom: 60px;
+}
+.both_rows
+{
+      margin: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 2em;
+      justify-content: space-between;
+}
+.both_rows h1
+{
+      padding-top: 100px;
+      padding-bottom: 50px;
+      text-transform: capitalize;
+      font-size: 30px;
+      font-weight: bolder;
+}
+.both_rows p
+{
+      line-height: 40px;
+      text-align: center;
+      width: 70%;
+      padding-top: 40px;
+      padding-bottom: 40px;
+}
+.both_rows .column1
+{
+      border: 2px solid #fb8500;
+      border-radius: 20px;
+      padding-left: 60px;
+      background-color: white;
+      margin-left: 40px;
+}
+.columns
+{
+      background-color: darkgrey;
+      padding-bottom: 40px;
+      border-radius: 20px;
+}
+.expereinces
+{
+      text-align: center;
+      width: 100%;    
+}
+.expereinces h1
+{
+font-size: 30px;
+text-transform: capitalize;
+padding: 35px 0;
+margin-top: 50px;
+}
+.expereinces h1 span
+{
+      color: #fb8500;
+}
+.expereinces p
+{
+line-height: 30px;
+letter-spacing: 2px;
+padding-left: 29px;
+padding-right: 29px;
+padding-bottom: 60px;
+}
+.inside
+{
+      margin: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 2em;
+      justify-content: space-between;
+      text-align: center;
+
+}
+.both_rows0 h3
+{
+      padding-top: 50px;
+      padding-bottom: 30px;
+      text-transform: capitalize;
+      font-size: 25px;
+      font-weight: bolder;  
+       
+}
+.both_rows0 h4
+{
+font-size: 20px;
+padding-bottom: 10px;
+}
+.both_rows0 ul 
+{
+position: relative;
+}
+.both_rows0 ul li
+{
+      position: relative;
+      list-style: none;
+      margin: 10px 0;
+      text-align: start;
+      padding-left: 100px;
+      font-size: 20px;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+      font-weight: bold;
+}
+.both_rows0 ul li .icon
+ {
+       display: inline-block;
+       width: 30px;
+       font-size: 25px;
+       color: #fb8500;
+ }
+ .both_rows0
+ {
+      border: 2px solid #fb8500;
+      border-radius: 20px;
+      padding-right: 10px;
+      background-color: white;
+      margin-left: 40px; 
+      padding-bottom: 35px;   
+ }
+ .inside1
+{
+      padding: 20px;
+      display: grid;
+      grid-template-columns:1fr 1.5fr 1.5fr 1fr;
+      grid-gap: 1em;
+      justify-content: space-between;
+      background-color: #023047;
+      text-align: center;
+      margin-top: 50px;
+}
+.both_row0 h3
+{
+      padding-top: 50px;
+      padding-bottom: 30px;
+      text-transform: capitalize;
+      font-size: 25px;
+      font-weight: bolder; 
+      color: #fff;     
+}
+.both_row0 ul 
+{
+position: relative;
+}
+.both_row0 ul li
+{
+      position: relative;
+      list-style: none;
+      margin: 10px 0;
+      text-align: start;
+      padding-left: 50px;
+      font-size: 25px;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #fff;
+}
+.both_row0 ul li .icon
+ {
+       display: inline-block;
+       width: 30px;
+       font-size: 25px;
+       color: #fb8500;
+ }
+ .both_row0
+ {
+      
+      border-radius: 20px;
+      padding-right: 10px;
+      margin-left: 5px; 
+      padding-bottom: 35px;   
+ }
+ .social
+{
+display: flex;
+width: 100%;
+margin: auto;
+padding: 2px 0;
+
+justify-content: space-between;
+margin-top: 0px;
+background-color: black;
+height: 150px;
+margin-bottom: ;
+
+}
+.footer ul li
+{
+      display: inline-block;
+      list-style: none;
+      margin: 10px 20px;
+}
+.social ul li .icon
+{
+      text-decoration: none;
+      color: #fb8500;
+      font-size: 55px;
+      margin-left: 80px;
+      float: right;
+      margin-top: 35px;
+      margin-right: 30px;
+
+}
+.footer span
+{
+      text-decoration: none;
+      color: #fb8500;
+      font-weight: bold;
+      text-transform: capitalize;
+      font-size: 25px; 
+      margin-right: ;   
+}
+.social h3
+{
+      color: #fff;
+      text-transform: uppercase;
+      margin-top: 60px;
+      margin-left: 80px;
+}
